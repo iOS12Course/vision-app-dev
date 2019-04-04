@@ -74,15 +74,20 @@
                                     <constraint firstAttribute="width" constant="75" id="elV-7K-sFx"/>
                                 </constraints>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Qbb-QP-3XG">
+                                <rect key="frame" x="307.5" y="573" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0FW-mN-hZd" secondAttribute="bottom" constant="20" id="2vl-TB-4dU"/>
                             <constraint firstItem="SaC-zH-L3M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Yg-wB-voi"/>
                             <constraint firstItem="q7h-AB-4b3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Gmf-My-DIm"/>
+                            <constraint firstItem="Qbb-QP-3XG" firstAttribute="centerY" secondItem="7pY-GW-r9E" secondAttribute="centerY" id="MgF-8R-wtK"/>
                             <constraint firstItem="SaC-zH-L3M" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="TZW-rj-AJA"/>
                             <constraint firstItem="0FW-mN-hZd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VN3-cJ-PS6"/>
                             <constraint firstItem="q7h-AB-4b3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WzL-Cb-TIl"/>
+                            <constraint firstItem="Qbb-QP-3XG" firstAttribute="centerX" secondItem="7pY-GW-r9E" secondAttribute="centerX" id="Zpz-6m-K0J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7pY-GW-r9E" secondAttribute="trailing" constant="20" id="cD2-0q-hgb"/>
                             <constraint firstItem="SaC-zH-L3M" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d7X-lO-GgK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q7h-AB-4b3" secondAttribute="trailing" constant="20" id="e5J-CF-e4R"/>
@@ -98,6 +103,7 @@
                         <outlet property="flashBtn" destination="0FW-mN-hZd" id="5Ma-Ap-6Xq"/>
                         <outlet property="identificationLbl" destination="myh-KY-bXL" id="v3i-03-QBN"/>
                         <outlet property="roundedLblView" destination="q7h-AB-4b3" id="9jY-Q1-qhh"/>
+                        <outlet property="spinner" destination="Qbb-QP-3XG" id="QlL-zR-0lm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
