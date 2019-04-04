@@ -20,7 +20,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SaC-zH-L3M">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.081317399540000002" green="0.8980392157" blue="0.1276937282" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q7h-AB-4b3" customClass="RoundedShadowView" customModule="vision_app_dev" customModuleProvider="target">
                                 <rect key="frame" x="20" y="50" width="335" height="60"/>
@@ -63,6 +63,9 @@
                                 <state key="normal" title="FLASH OFF">
                                     <color key="titleColor" red="0.84705882352941175" green="0.27843137254901962" blue="0.11372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="flashBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="umJ-hJ-hog"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7pY-GW-r9E" customClass="RoundedShadowImageView" customModule="vision_app_dev" customModuleProvider="target">
                                 <rect key="frame" x="280" y="519" width="75" height="128"/>
